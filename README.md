@@ -2,6 +2,7 @@
 
 Keylogger logic using [this keyboard repository](https://github.com/boppreh/keyboard). Currently works as a keylogger for the local computer. 
 Can be used across users on Windows. Meant to be used via the terminal.
+- NOTE: instructions below are targeted for Windows users, other Operating Systems may need to use different commands etc.
 
 ## Target computer requirements
 - Must have python installed and be able to use from the command prompt or terminal
