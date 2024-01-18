@@ -12,7 +12,7 @@ Can be used across users on Windows. Meant to be used via the terminal.
 - Change directory to the folder where you have the script
   - for example: "cd filePath"
   - IMPORTANT: changing the directory ensures the keystrokes are written into the text file where the script is
-- Run the script from the folder
+- Run the script from the command prompt/terminal
   - for example: "python C:\filePath\main.py"
 
 ## Key features
