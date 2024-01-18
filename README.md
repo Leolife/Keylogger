@@ -1,7 +1,8 @@
 # Keylogger
 
 FOR FUN - ONLY TO BE USED HARMLESSLY AND LOCALLY <br>
-<br>Keylogger logic using [this keyboard repository](https://github.com/boppreh/keyboard). Currently works as a keylogger for the local computer. 
+I created this as a fun side project to learn more about computer security.<br><br>
+Keylogger logic using [this keyboard repository](https://github.com/boppreh/keyboard). Currently works as a keylogger for the local computer. 
 Can be used across users on Windows. Meant to be used via the terminal.
 - NOTE: instructions below are targeted for Windows users, other Operating Systems may need to use different commands etc.
 
