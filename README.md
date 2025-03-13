@@ -9,6 +9,14 @@ Program can be run on Windows and Mac. Should be interoperable with other linux 
 - Must have python installed and be able to use from the command prompt or terminal
 - must run the command "pip install keyboard" to download the dependency
 
+## Key features
+- In main directory:
+  - the program will record keystrokes into a keystrokes.txt file on machine where the client is run.
+  - the program will send keystrokes over the network to the server wherever it may be run.
+- In record-keys-on-local-machine directory:
+  - Upon pressing the "enter" key, a new line and a label notating that the user pressed the "enter" key is written in the text file
+  - the program will continue until you press the "escape" key (subject to change)
+
 ## How to use
 - Open command prompt/terminal
 - Change directory to the folder where you have the program
@@ -31,11 +39,3 @@ Program can be run on Windows and Mac. Should be interoperable with other linux 
 - Rename the folder and enter the keys "alt + 255" for an invisible character
 - Choose a blank folder icon
 - Folder should now be invisible to the human eye, now put keylogger .ps1 file into this folder to help hide it
-
-## Key features
-- In main directory:
-  - the program will record keystrokes into a keystrokes.txt file on machine where the client is run.
-  - the program will send keystrokes over the network to the server wherever it may be run.
-- In record-keys-on-local-machine directory:
-  - Upon pressing the "enter" key, a new line and a label notating that the user pressed the "enter" key is written in the text file
-  - the program will continue until you press the "escape" key (subject to change)
