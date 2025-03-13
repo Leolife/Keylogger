@@ -1,4 +1,7 @@
 def getIP():
+    """
+    Takes user inputted IP address and validates to ensure it is an IPv4 address.
+    """
     valid_ip = False
     while not valid_ip:
         try:
@@ -21,6 +24,9 @@ def getIP():
 
 
 def getPort():
+    """
+    Takes user inputted port and validates to ensure it is a correct port.
+    """
     valid_port = False
     while not valid_port:
         try:
